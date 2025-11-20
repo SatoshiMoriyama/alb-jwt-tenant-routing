@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# Build output
+dist/
+*.js
+*.d.ts
+!jest.config.js
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

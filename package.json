@@ -1,0 +1,16 @@
+{
+  "name": "alb_jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cdk:diff": "pnpm --filter cdk diff",
+    "cdk:deploy": "pnpm --filter cdk deploy",
+    "lambda:build": "pnpm --filter lambda build"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0"
+}
